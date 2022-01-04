@@ -1,16 +1,12 @@
 # coronavirus_rest_api
 
-A new Flutter project.
+An app that reads the number of coronavirus cases, confirmed cases, suspected cases, deaths and recoveries from the RESTApi https://ncov2019-admin.firebaseapp.com/#/
 
-## Getting Started
+I was able to get all the data from the endpoint and display it to the user through a dashboard. I was also able to implement a data caching service that loads the previous data gotten from the endpoint while the user is offline and also implemented a refresh indicator that refreshes when the user is back online.
 
-This project is a starting point for a Flutter application.
+I was also able to implement some error handling such that the user is shown a dialog when he is offline (SocketException) and an Unknown error dialog for other unknown errors.
 
-A few resources to get you started if this is your first Flutter project:
+Here is the live link for testing https://appetize.io/app/3da9z99wm0rfahrrb0k96yk974
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+And also a mini screen record showing all the features
+Android Emulator - Pixel_4_API_29_5554 2022-01-04 13-32-41
