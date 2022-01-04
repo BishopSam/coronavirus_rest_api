@@ -9,4 +9,5 @@ I was also able to implement some error handling such that the user is shown a d
 Here is the live link for testing https://appetize.io/app/3da9z99wm0rfahrrb0k96yk974
 
 And also a mini screen record showing all the features
-Android Emulator - Pixel_4_API_29_5554 2022-01-04 13-32-41
+https://user-images.githubusercontent.com/59648161/148062046-2cb92bcb-8d80-4ef9-953e-ceb270e1f4db.mp4
+
